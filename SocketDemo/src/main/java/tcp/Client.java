@@ -1,3 +1,5 @@
+package tcp;
+
 import java.io.*;
 import java.net.*;
 
@@ -24,7 +26,7 @@ public class Client {
         System.out.println("服务器信息：" + socket.getInetAddress()+ "        Port:" + socket.getPort());
 
         try {
-            // 发送接收数据 阻塞的
+            // 发送接收数据,它是阻塞的
             todo(socket);
         }catch (Exception e){
             System.out.println("异常关闭！！！");
