@@ -1,4 +1,4 @@
-package tcp;
+package demo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -67,6 +67,8 @@ public class Server {
                         System.out.println(str);
                         socketOutput.println("回送：" + str.length());
                     }
+
+
                 }while (flag);
 
                 //资源关闭操作
