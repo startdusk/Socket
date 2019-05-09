@@ -1,7 +1,5 @@
 package tcp;
 
-import sun.jvm.hotspot.tools.Tool;
-
 import java.io.*;
 import java.net.Inet4Address;
 import java.net.InetSocketAddress;
