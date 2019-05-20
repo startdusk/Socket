@@ -7,18 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lib_clink" />
-        <module name="sample-client" />
-        <module name="sample-foo" />
-        <module name="sample-server" />
-        <module name="sampleclient" />
-        <module name="samplefoo" />
-        <module name="sampleserver" />
+        <module name="sample_client" />
+        <module name="sample_foo" />
+        <module name="simple_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sample_client" target="1.5" />
-      <module name="sample_foo" target="1.5" />
-      <module name="sample_server" target="6" />
+      <module name="sample-client" target="1.5" />
+      <module name="sample-foo" target="1.5" />
+      <module name="sample-server" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
